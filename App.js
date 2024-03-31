@@ -49,7 +49,7 @@ const App = () => {
         {showWebView ? (
           <Animated.View style={[styles.webviewContainer,{ opacity: fadeInAnim }]}>
             <WebView
-              source={{ uri: 'https://b2bt.tripfindy.com/'}}
+              source={{ uri: 'https://b2b.ticketlagbe.com/'}}
               style={styles.webview}
             />
           </Animated.View>
