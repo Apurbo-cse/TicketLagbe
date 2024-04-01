@@ -33,7 +33,7 @@ const App = () => {
       setShowWebView(true);
       Animated.timing(fadeInAnim, {
         toValue: 1,
-        duration: 1000,
+        // duration: 100,
         useNativeDriver: true,
       }).start();
     }, 1000);
@@ -49,7 +49,7 @@ const App = () => {
         {showWebView ? (
           <Animated.View style={[styles.webviewContainer,{ opacity: fadeInAnim }]}>
             <WebView
-              source={{ uri: 'https://b2b.ticketlagbe.com/'}}
+              source={{ uri: 'https://b2bt.tripfindy.com/login'}}
               style={styles.webview}
             />
           </Animated.View>
